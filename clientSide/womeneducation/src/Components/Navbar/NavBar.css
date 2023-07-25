@@ -1,0 +1,38 @@
+.nav
+{
+    width:80px;
+    border:3px solid rgb(20, 20, 20);
+    height:1200px;
+    position: fixed;
+    left: 0px;
+    top:0px;
+    background-color: aliceblue;
+}
+.navbar
+{
+    width:70px;
+    height:70px;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.navbar1
+{
+    margin-top: 300px;
+}
+.box
+{
+    width:1360px;
+    height:1200px;
+    margin-left: 83px;
+}
+.imagesize1
+{
+    width:60px;
+    height:60px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.imagesize
+{
+    margin-top: 130px;
+}
