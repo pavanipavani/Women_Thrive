@@ -1,22 +1,27 @@
 import React from "react";
 import './NavBar.css';
-import {Link} from 'react-router-dom';
-
+import {Link, useNavigate} from 'react-router-dom';
+import {useDispatch} from "react-redux";
+import { getAllCourse } from '../../Redux/ProductReducer/action';
 
 function NavBar(){
-
-
+    const dispatch = useDispatch()
+    const navigate = useNavigate()
+    const courseDisplay = async () => {
+        await dispatch(getAllCourse())
+        navigate("/course")
+    }
     return (
     <div className="nav">
         <div className='navbar'>
-        <Link to="/welcomepage" ><img className="jtdimagesize" src="resources/jtdimage.jpeg" alt="img" /></Link>
+        <Link to="/homepage"><img className="imagesize1" src="resources/jtdimage.jpeg" alt="img" /></Link>
         </div>
 
         <div className="navbar" >
-        <Link to="/homepage" ><img className="imagesize1" src="resources/livebook.png" alt="img" /></Link>;
+        <img className="imagesize1" src="resources/livebooks.png" alt="img" onClick={() => courseDisplay()}/>
         </div>
-        <div className="navbar1">
-        <Link to='/signup'><img className="imagesize2" src="resources/signupimage.png" alt="img" /></Link>
+        <div className="navbar navbar1">
+        <Link to='/signup'><img className="imagesize1 imagesize " src="resources/signupimage.png" alt="img" /></Link>
         </div>
     </div>
     )

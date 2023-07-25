@@ -1,0 +1,64 @@
+.welcomeimage
+{
+    margin-left: 400px;
+    margin-top: 80px;
+    width:650px;
+}
+.homepageborder
+{
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.hometext
+{
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 20px;
+}
+.livebook
+{
+    text-decoration: none;
+}
+.hometext1
+{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 40px;
+}
+.educationimage
+{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.womenimagesize
+{
+    margin-left: 150px;
+}
+.educationtext
+{
+    margin-left: 250px;
+    margin-right: 150px;
+    line-height: 30px;
+}
+.womeneducationtitle{
+   margin-left: 250px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.whyeducation
+{
+    margin-left: 250px;
+    margin-right: 150px;
+    line-height: 30px;
+}
+.achieveimage
+{
+    margin-left: 250px;
+}
+.achieveimagesize
+{
+    width:500px;
+    height: 300px;
+}

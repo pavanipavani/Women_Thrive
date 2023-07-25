@@ -17,32 +17,22 @@
 }
 .navbar1
 {
-    width:70px;
-    height:70px;
     margin-top: 300px;
-    margin-left: 3px;
 }
 .box
 {
     width:1360px;
     height:1200px;
     margin-left: 83px;
-    /* border: 5px solid red; */
-}
-.jtdimagesize
-{
-    width:60px;
-    height:60px; 
 }
 .imagesize1
 {
-    width:70px;
+    width:60px;
     height:60px;
-    margin-top: 3px;
+    margin-top: 5px;
+    margin-left: 3px;
 }
-.imagesize2
+.imagesize
 {
-    width:70px;
-    height:70px;
-    margin-top: 150px;
+    margin-top: 130px;
 }
