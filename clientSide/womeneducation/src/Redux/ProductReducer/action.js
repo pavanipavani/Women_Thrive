@@ -24,7 +24,7 @@ export const getAllCourseRequest = () => ({
 
   export const getAllCourse = () => (dispatch) => {
     dispatch(getAllCourseRequest());
-    axios.get("http://localhost:8080/cource")
+    axios.get("http://localhost:8080/course")
       .then((res) => dispatch(getAllCourseSuccess(res.data)))
       .catch(() => dispatch(getAllCourseFailure()));
   };

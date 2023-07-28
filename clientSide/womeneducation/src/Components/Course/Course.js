@@ -9,17 +9,17 @@ import { useNavigate } from 'react-router';
 import UnitData from "../Unit/unit"
 
 const DisplayCourseData = () => {
+    const [click, setClick ] = useState(false);
     const courseData = useSelector(state => state.course.courseData)
     console.log(courseData)
     
     const dispatch = useDispatch()
     const navigate = useNavigate()
     const unitsDisplay = async () => {
+        setClick(true);
         await dispatch(getAllUnits())
         navigate("/course")
     }
-
-    
    const [search,setSearch] = useState("")
     return(
         <div>
@@ -28,7 +28,7 @@ const DisplayCourseData = () => {
                 <div className="title">
                     <div className="margin">
                         <div className="titletext"><b>Learn the ways of the future</b></div>
-                        <div className="titletext1">Develop a passion for learning.if you do, you will never cease to grow</div>
+                        <div className="titletext1">Explore education with<b className='bold'> Womantrive</b>'s top-notch curriculum and leading experts</div>
                     </div>
                     <div className="margin1">
                         <img className="titleimg" src="resources/navimage.png" alt="img" />
@@ -48,13 +48,13 @@ const DisplayCourseData = () => {
                             })
                             ?.map(({course_NAME}) => 
                             <div className='courseinfo'>
-                                <div className='coursedatainfo' onClick ={() =>unitsDisplay()}>{course_NAME} </div>
+                                <div className='coursedatainfo' onClick ={() =>unitsDisplay(click)}>{course_NAME} </div>
                             </div>
                             )
                         }
                     </div>
                     <div>
-                        <UnitData />
+                    <UnitData click={click} />
                     </div>
                 </div>
             </div>

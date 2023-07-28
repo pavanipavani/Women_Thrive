@@ -2,7 +2,7 @@ import React from "react";
 import './Homepage.css';
 import Footer from "../Footer/Footer";
 import NavBar from "../Navbar/NavBar";
-// import { Link } from "react-router-dom";
+ import { Link } from "react-router-dom";
 import { EducationData, HomeConstant, WhyEducation } from "../Constant/constantdata";
 
 function Homepage (){
@@ -18,6 +18,7 @@ function Homepage (){
                         <p className="hometext">{element}</p>
                     ))
                 }
+              <Link to="/course"><span className="loviebooksredirect">hop on to Livebooks.</span></Link>
             </div>
             <div className="educationimage">
                 <img className="womenimagesize" src="resources/women.png" alt="img" />
