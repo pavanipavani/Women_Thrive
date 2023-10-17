@@ -1,5 +1,4 @@
 # Women_Thrive
-<h1>My Project(ChitFunds)😇</h1>
 <h2>About Project</h2>
 <p>The aim is to provide free education to girls who drop out and get married. This way, they can continue their education and overcome challenges in their life, helping them achieve their goals.</p>
 <h2>Technologies used</h2>
@@ -19,15 +18,13 @@
   <img style="width:80px"src="https://logodix.com/logo/1614302.png" alt="error"/>
 </div>
 <h2>Functionalities</h2>
- :dart: Signup with your details<br>
- :dart: Login with your private sigup details<br>
- :dart: Tracking chit fund member details<br>
- :dart: Saving bank details securely<br>
- :dart: Tracking the chit funds sum assured details
+ :dart: Signup <br>
+ :dart: Login <br>
+ :dart: Select course<br>
+ :dart: prepare video / material<br>
+ :dart: Take your test 
 
  <h2>My wesite looks like</h2>
 
- ![image](https://github.com/Harshitha-reddy88/capstone_chitfunds_project/assets/119464978/b26cfd95-1c87-4b0e-b0aa-b32d564d0324)
- <p>wanna try it</p>
- <img style="width:100px" src="https://github.com/mayankchaudhary26/Cool-Readme-ideas/raw/master/data/giphy.gif"alt="error"/>
- 
+ ![image](https://github.com/pavanipavani/Women_Thrive/blob/main/Screenshot%20from%202023-07-29%2013-42-38.png)
+
