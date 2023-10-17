@@ -19,7 +19,7 @@
 </div>
 <h2>Functionalities</h2>
  :dart: Signup <br>
- :dart: Login <br>
+ :dart: Login <br> 
  :dart: Select course<br>
  :dart: prepare video / material<br>
  :dart: Take your test 
