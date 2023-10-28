@@ -1,0 +1,99 @@
+.display
+{
+    width:1353px;
+    height:904px;
+    margin-left: 86px;
+}
+.title
+{
+    width:1360px;
+    height:200px;
+    background-color: rgb(100, 81, 121);
+    display: flex; 
+}
+.coursedetails
+{
+    display:flex;  
+}
+.imagesize
+{
+    width:60px;
+    height:60px; 
+}
+.margin
+{
+    width:950px;
+    height:200px;
+    margin-right: 1px;
+}
+.margin1
+{
+    width:400px;
+    height:200px;
+    margin-right: 1px; 
+}
+.titleimg
+{
+    width:320px;
+    height:200px;
+    margin-left: 80px;
+}
+.titletext
+{
+    font-size: 38px;
+    margin-top: 50px;
+    margin-left: 30px;
+    color:white;
+    margin-right: 1px;
+    width:550px; 
+}
+.titletext1
+{
+    color:white;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 23px;
+}
+.selectcourseimg
+{
+    width:150px;
+    height:150px;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+.coursedetails{
+    
+    width:200px;
+    border: 1px solid black;
+    height: 705px;
+}
+.courseinfo
+{
+    width: 198px;
+    height: 50px;
+}
+.courseinfo:hover
+{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+}
+.coursedatainfo
+{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.a
+{
+    width: 197px;
+    font-size: 18px;
+    padding-left: 22px;
+    margin-top: 0px;
+    height: 30px;
+    margin-left: -2px;
+    text-align: center;
+}
+.bold
+{
+    color:whitesmoke;
+}

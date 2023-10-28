@@ -1,0 +1,89 @@
+.backgroundimage
+{
+    width:100%;
+}
+
+.signupbox
+{
+    background-color:white;
+    height:500px; 
+}
+.margin2
+{
+    width:280px;
+    height:400px;
+    margin: 65px 55px 30px 40px;
+}
+input
+{
+    display:flex;
+    flex-wrap: wrap;
+    font-size:14px;
+    padding:10px 10px;
+    border-radius: 5px;
+    margin-bottom:15px;
+    width:270px; 
+    margin-top: 20px;
+    background-color: rgb(253, 252, 251);
+}
+.flex1
+{
+    margin:160px 10px 100px 800px;
+    display:flex; 
+    width:370px;
+    position: absolute;
+    top:0px;
+    left: 0px; 
+}
+.signupimg
+{
+    height:500px;
+    width:500px;  
+}
+.signupbutton
+{
+    width:120px;
+    height:45px;
+    border-radius: 30px;
+    margin-left:90px;
+    margin-top:2px;
+    color:white;
+    font-size: 17px;
+    background-color:rgb(47, 4, 145);
+}
+.signupbutton:hover
+{
+    background-color:rgb(65, 10, 110);
+    color:white;
+}
+.login
+{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.or
+{
+    margin-left: 130px;
+    font-size: 25px;
+    margin-top:10px;
+}
+.display2
+{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.imagesize3
+{
+    width:30px;
+    height:30px;
+    margin-left: 25px;
+}
+.text
+{
+    margin-left:15px;
+}
+.loginpage
+{
+    color:rgb(165, 15, 135);
+}
