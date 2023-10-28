@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import RoutesData from './Components/Routes/Routes';
 function App() {
   return (
     <div className="App">
-      pavani
+      <RoutesData />
     </div>
   );
 }
